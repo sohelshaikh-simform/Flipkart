@@ -88,9 +88,8 @@ nav {
     font-weight: 800;
 }
 
-.header {
+.midheader {
     display: flex;
-    /* margin: 25px; */
     padding: 10px 15px;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
@@ -123,8 +122,28 @@ nav {
 
 .green {
     color: rgb(3, 77, 3);
+    margin: 5px;
 }
 
 .gray {
     color: gray;
+    margin: 5px;
+}
+.lastsection{
+    margin: 15px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 25px 100px;
+}
+.lastheader{
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+.gray2{
+    color: gray;
+    margin: 0px 25px;
+
+}
+.lastdsection_content{
+    margin: 25px 100px;
+    display: flex;
 }
