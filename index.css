@@ -14,18 +14,21 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 62px;
 
 }
-
+.white{
+    color: white;
+}
 .search {
     height: 20px;
     width: 500px;
     padding: 8px 20px;
-    margin: 20px;
+    margin: 10px 20px;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -35,28 +38,37 @@ nav {
     outline: none;
 
 }
-
-
 .navlink {
     text-decoration: none;
     margin: 10px 20px;
     color: white;
     font-size: large;
+    font-weight: bold;
 }
 #login {
-    height: 35px;
-    width: 90px;
+    height: 30px;
+    width: 110px;
     background-color: white;
     color: #2874f0;
     border: none;
+    font-size: 900;
+    font-weight:500;
+    margin-left: 50px;
+    
+}
+button{
+    border-radius: 5px;
 }
 
 .navbarheader {
     height: 130px;
-    margin: 25px 100px;
+    /* margin: 25px 100px; */
+    padding: 10px 450px;
     display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    /* justify-content: space-around;
+    border-bottom: 1px solid #ccc; */
     box-shadow: 2px 2px 8px #ccc;
 }
 
@@ -73,7 +85,7 @@ nav {
 }
 
 .midsection {
-    margin: 15px;
+    /* margin: 15px; */
     box-shadow: 2px 2px 8px #ccc;
     margin: 25px 100px;
 }
@@ -107,7 +119,9 @@ nav {
 
 .midsection_content {
     margin: 25px 100px;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
 }
 
 .content {
@@ -122,20 +136,22 @@ nav {
 
 .green {
     color: rgb(3, 77, 3);
-    margin: 5px;
+    margin: 5px 0px;
 }
 
 .gray {
     color: gray;
-    margin: 5px;
+    margin: 5px 0px;
 }
 .lastsection{
-    margin: 15px;
+    /* margin: 15px; */
     box-shadow: 2px 2px 8px #ccc;
     margin: 25px 100px;
 }
 .lastheader{
+    display: flex;
     padding: 10px 15px;
+    justify-content: space-between;
     border-bottom: 1px solid #ccc;
 }
 .gray2{
@@ -143,7 +159,27 @@ nav {
     margin: 0px 25px;
 
 }
-.lastdsection_content{
+.lastsection_content{
     margin: 25px 100px;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.conatainer_footer{
+    display: grid;
+    background-color: #212121;
+    grid-template-columns: repeat(6,1fr);
+    color: white;
+    height: 200px;
+    padding: 30px 60px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 10px;
+    font-size: small;
+
+}
+li{
+    margin-top: 14px;
 }
