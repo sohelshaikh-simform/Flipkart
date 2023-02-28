@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 62px;
+    height: 80px;
 
 }
 .white{
@@ -28,7 +28,7 @@ nav {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid black; */
+
 
 }
 
@@ -46,18 +46,51 @@ nav {
     font-weight: bold;
 }
 #login {
-    height: 30px;
-    width: 110px;
+    height: 40px;
+    width: 120px;
     background-color: white;
     color: #2874f0;
     border: none;
     font-size: 900;
-    font-weight:500;
-    margin-left: 50px;
+    font-weight:600;
+    margin-left: 100px;
     
 }
 button{
     border-radius: 5px;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.slider{
+    display: flex;
+    width: 6100px;
+    position: relative;
+    animation-name: slide;
+    animation-delay: 3s;
+    animation-duration: 6s;
+}
+.slider img{
+    width: 100%;
+    height: 350px;
+}
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+  
+    40%{
+        left: -2100px;
+    }
+    80%{
+        left: -4100px;
+    }
+
+    100%{
+        left: -4100px;
+    }
 }
 
 .navbarheader {
