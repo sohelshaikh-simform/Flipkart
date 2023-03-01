@@ -260,7 +260,7 @@ Banner code end
 .midsection_content {
     margin: 25px 100px;
     overflow: hidden;
-    max-width: 1000px;
+    max-width: 1100px;
     display: grid;
     height: 350px;
     grid-template-columns: repeat(7, 1fr);
