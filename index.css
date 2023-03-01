@@ -177,7 +177,6 @@ Banner code end
     box-shadow: 2px 2px 8px #ccc;
     margin: 25px 100px 25px 130px;
     width: 1600px;
-    /* width: 1200px; */
 }
 .scroll-product{
     display: flex;
@@ -246,7 +245,8 @@ Banner code end
 }
 .midsection_contenthead{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    width: 1000px;
 }
 #advertise{
     position: relative;
