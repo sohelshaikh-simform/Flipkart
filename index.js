@@ -32,9 +32,12 @@ var x = setInterval(function () {
 
 
 function MoveRight() {
-    document.getElementById('All-Products').style.transform = "translateX(-50px)";
+    document.getElementById('All-Products').style.transform = "translateX(-100px)";
 }
 function MoveLeft(left) {
     document.getElementById('All-Products').style.transform = `translateX(${left}px)`;
     
 }
+// document.getElementsByClassName('rights').addEventListener("click", function() {
+//     document.getElementById("All-Products'").style.transform ="translateX(-5000px)";
+//   });
