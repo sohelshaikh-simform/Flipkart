@@ -176,7 +176,7 @@ Banner code end
 .midsection {
     box-shadow: 2px 2px 8px #ccc;
     margin: 25px 80px 25px 100px;
-    width: 1400px;
+    /* width: 2000px; */
 }
 .scroll-product{
     display: flex;
@@ -260,9 +260,8 @@ Banner code end
 .midsection_content {
     margin: 25px 100px;
     overflow: hidden;
-    /* display: flex; */
+    max-width: 1000px;
     display: grid;
-    width: 4000px;
     height: 350px;
     grid-template-columns: repeat(7, 1fr);
     /* transform: translateX(0px); */
