@@ -260,11 +260,11 @@ Banner code end
 .midsection_content {
     margin: 25px 100px;
     overflow: hidden;
-    display: flex;
-    /* display: grid; */
+    /* display: flex; */
+    display: grid;
     /* width: 4000px; */
     height: 350px;
-    /* grid-template-columns: repeat(7, 1fr); */
+    grid-template-columns: repeat(7, 1fr);
     /* transform: translateX(0px); */
 }
 
