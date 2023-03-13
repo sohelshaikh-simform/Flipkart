@@ -98,7 +98,7 @@ button {
 .navbarheader {
     height: 130px;
     /* margin: 25px 100px; */
-    padding: 10px 450px;
+    padding: 10px 200px;
     display: flex;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
